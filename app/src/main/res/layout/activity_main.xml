@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F80E0E"
+    android:orientation="vertical"
+    tools:context=".fragment.MainActivity">
+
+    &lt;!&ndash;android:name="com.windys.myapplication.fragment.ContactFragment"&ndash;&gt;
+    <fragment
+        android:id="@+id/fr_contact"
+        android:name="com.windys.myapplication.fragment.PromotionFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <fragment
+        android:layout_marginTop="20dp"
+        android:id="@+id/fr_place"
+        android:name="com.windys.myapplication.fragment.PlaceFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="weird">#C6FB7A07</color>
+    <color name="yello">#E8ED5B2C</color>
+    <color name="white">#C6FFFFFF</color>
+    <color name="pink">#F663A3</color>
+    <color name="yello1">#B1F0BD6A</color>
+    <color name="color_category">#E93838</color>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_placename"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:maxLines="1"
+        android:text="Hello World"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_ismoredetail"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:background="@drawable/place_item_promotion_bg"
+        android:text="Is more Detail"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tv_ispromotion"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/place_promotion_bg"
+        android:text="is \n space"
+        android:textSize="18sp" />
+</LinearLayout>

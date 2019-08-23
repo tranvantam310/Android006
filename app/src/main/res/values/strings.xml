@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="toolbarTitle">Tai khoan</string>
+    <string name="title_activity_bottom_navigation">BottomNavigation</string>
+    <string name="title_home">Trang chủ 1</string>
+    <string name="title_dashboard">Tích điểm</string>
+    <string name="title_notifications">Dùng điểm</string>
+    <string name="l_ch_s_giao_d_ch">Lịch sử giao dịch</string>
+    <string name="text">Chào mừng bạn đã là thành viên của Deckko tích điểm để lên hạng cao hơn và có nhiều quyền lợi hơn</string>
+    <string name="chi_tiet">Chi tiet</string>
+    <string name="search_here">Search here....</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="category">Category</string>
+    <string name="place">Place</string>
+    <string name="contact">Contact</string>
+    <string name="promotion">Promotion</string>
+    <string name="title_activity_bottom_delete">BottomDelete</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+</resources>

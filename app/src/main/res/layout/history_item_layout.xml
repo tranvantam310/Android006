@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/img_icon"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!--
+                 android:text="Bạn đã nhận đc cộng 10 điểm  từ hệ thống"
+        -->
+        <TextView
+            android:id="@+id/tv_title_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bạn đã nhận đc cộng 10 điểm  từ hệ thống"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!--android:text="Số dư :10000đ"-->
+        <TextView
+            android:id="@+id/tv_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số dư :10000đ"
+            android:textColor="#2C2929"
+            android:textSize="15sp" />
+
+        <!--android:text="Mã giao dịch:709B6A44BF09C3F86C579013BA992261"-->
+        <TextView
+            android:id="@+id/tv_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã giao dịch:709B6A44BF09C3F86C579013BA992261"
+            android:textColor="#2C2929"
+            android:textSize="15sp" />
+
+        <!--android:text="2019-07-22T21:45:28.517"-->
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2019-07-22T21:45:28.517"
+            android:textColor="#312C2C"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+    <!--android:text="+10đ" -->
+    <TextView
+        android:id="@+id/tv_point"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="#4CAF50"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
