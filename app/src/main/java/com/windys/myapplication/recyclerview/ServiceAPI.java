@@ -11,7 +11,7 @@ public interface ServiceAPI {
    /* @POST("Service/GetListPlace")
     Call<List<Place>> getListPlace(@Body JSONObject body1);*/
 
-   @POST("Service/GetListPlace")
+    @POST("Service/GetListPlace")
     Call<ListPlaceResponse1> getListPlace(@Body JSONObject body);
 
   /* @POST("Service/GetListPlace")

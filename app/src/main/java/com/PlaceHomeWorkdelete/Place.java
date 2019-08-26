@@ -178,7 +178,6 @@ public class Place {
     @Expose
     public Object urlBanner;
 
-
     @SerializedName("longitude")
     @Expose
     public Float longitude;

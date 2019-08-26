@@ -17,7 +17,11 @@
             android:name=".fragment.NavigationDrawerActivity"
             android:theme="@style/AppTheme.NoActionBar">
 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
         </activity>
         <activity android:name=".fragment.BottomDelete"></activity>
@@ -26,13 +30,9 @@
         </activity>
         <activity android:name="com.PlaceHomeWorkdelete.promotion.PromotionActivity" />
         <activity android:name="com.PlaceHomeWorkdelete.PlaceActivity" />
-        <activity android:name=".fragment.MainActivity" >
+        <activity android:name=".fragment.MainActivity">
 
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
 
         </activity>
         <activity android:name=".CategoryWork.CategoryActivity" />
