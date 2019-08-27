@@ -37,6 +37,7 @@ public class CategoryActivity extends AppCompatActivity {
         init();
         getData();
 
+
     }
 
     private void config() {

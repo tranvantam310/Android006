@@ -34,6 +34,9 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
         void onItemClick(Category category);
     }
 
+
+
+
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
@@ -51,19 +54,11 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
         Picasso.get().load(category.getUrlCategory()).into(viewHolder.img_category);
         viewHolder.tv_category.setText(category.getName());
 
-        //  viewHolder.bind(data.get(i), listener);
-
         if (data.get(i).getType() == 1) {
             relativeLayout.setBackgroundColor(ContextCompat.getColor(content, R.color.yello));
         } else if (data.get(i).getType() == 2) {
             relativeLayout.setBackgroundColor(ContextCompat.getColor(content, R.color.yello1));
         }
-
-        /*else if (data.get(i).getCategoryID() == -1){
-            relativeLayout.setBackgroundColor(Color.RED);
-        }else {
-            //relativeLayout.setBackgroundColor(Color.RED);
-        }*/
 
         if (data.get(i).getCategoryID() == 4) {
             relativeLayout.setBackgroundColor(ContextCompat.getColor(content, R.color.weird));
@@ -71,6 +66,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
             relativeLayout.setBackgroundColor(ContextCompat.getColor(content, R.color.pink));
         }
     }
+
 
     @Override
     public int getItemCount() {

@@ -14,8 +14,27 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".fragment.Bottom_Drawn_TabLayout1"
+            android:theme="@style/AppTheme.NoActionBar">
+
+
+
+
+        </activity>
+
+        <activity
             android:name=".fragment.NavigationDrawerActivity"
             android:theme="@style/AppTheme.NoActionBar">
+
+
+        </activity>
+
+        <activity android:name=".fragment.BottomDelete" />
+        <activity android:name=".fragment.BottomTabActivity"></activity>
+        <activity android:name="com.PlaceHomeWorkdelete.promotion.PromotionActivity" />
+        <activity android:name="com.PlaceHomeWorkdelete.PlaceActivity" />
+        <activity android:name=".fragment.MainActivity"></activity>
+        <activity android:name=".CategoryWork.CategoryActivity" >
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,18 +43,6 @@
             </intent-filter>
 
         </activity>
-        <activity android:name=".fragment.BottomDelete"></activity>
-        <activity android:name=".fragment.BottomTabActivity">
-
-        </activity>
-        <activity android:name="com.PlaceHomeWorkdelete.promotion.PromotionActivity" />
-        <activity android:name="com.PlaceHomeWorkdelete.PlaceActivity" />
-        <activity android:name=".fragment.MainActivity">
-
-
-
-        </activity>
-        <activity android:name=".CategoryWork.CategoryActivity" />
         <activity android:name=".ListContact.ContactActivity" />
         <activity android:name=".recyclerview.HistoryActivity" />
         <activity android:name=".recyclerview.PlaceActivity" />
@@ -45,7 +52,7 @@
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".BottomNavigation"
-            android:label="@string/title_activity_bottom_navigation"></activity>
+            android:label="@string/title_activity_bottom_navigation" />
         <activity android:name=".AccountActivity" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".UpdataUserInfoActivity" />
