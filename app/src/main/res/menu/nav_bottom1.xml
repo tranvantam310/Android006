@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cate1"
+            android:icon="@drawable/ic_category"
+            android:title="@string/category" />
+
+        <item
+            android:id="@+id/nav_place1"
+            android:icon="@drawable/ic_map"
+            android:title="@string/place" />
+
+        <item
+            android:id="@+id/nav_contact1"
+            android:icon="@drawable/ic_contact"
+            android:title="@string/contact" />
+
+
+        <item
+            android:id="@+id/nav_promotion1"
+            android:icon="@drawable/ic_promotion"
+            android:title="@string/promotion" />
+
+    </group>
+
+</menu>
